@@ -1,0 +1,2 @@
+include *.txt *.md *.pip
+recursive-include docs *.txt *.md
