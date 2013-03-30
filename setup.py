@@ -2,6 +2,10 @@
 
 from distutils.core import setup
 
+
+with open('README.md') as file:
+    long_description = file.read()
+
 setup(
     name='Flask-Config-Override',
     version='0.0.1',
@@ -11,7 +15,7 @@ setup(
     packages=['flask_config_override', 'flask_config_override.test'],
     license='BSD',
     description='Override Flask configuration via Cookie at runtime.',
-    long_description=open('README').read(),
+    long_description=long_description,
     install_requires=open('requirements.pip').readlines(),
     zip_safe=False,
     platforms='any',
