@@ -1,5 +1,8 @@
 flask-config-override
 =====================
+
+[![Build Status](https://travis-ci.org/elboby/flask-config-override.png?branch=master)](https://travis-ci.org/elboby/flask-config-override)
+
 This extension allows to change the configuration of a Flask application at runtime. This behavior is controlled by cookie and therefore is contained to the session of an unique user; configuration changes are not affecting other users.
 
 A common usage is to quickly change options in staging environment without having to redeploy configuration changes. For example, we use it for an external API location or a feature switch like using minified Javascript files or not.
