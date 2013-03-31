@@ -60,7 +60,6 @@ Immediate TODOs
 ===============
 * test for cookie_utils
 * test for proxy_config (based on flask one)
-* default config values
 * documentation API (sphinx)
 
 
