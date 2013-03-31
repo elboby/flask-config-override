@@ -6,3 +6,6 @@ python:
 install: "pip install -r requirements.pip --use-mirrors"
 
 script: nosetests
+
+notifications:
+  email: false
