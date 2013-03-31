@@ -8,7 +8,7 @@ with open('README.md') as file:
 
 setup(
     name='Flask-Config-Override',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/elboby/flask-config-override',
     author='Arnaud Seilles',
     author_email='arnaud.seilles@gmail.com',
